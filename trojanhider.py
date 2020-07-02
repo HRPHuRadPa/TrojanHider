@@ -22,7 +22,7 @@ if user_input == "3":
 elif user_input == "1":
 	user_trojan= input("Trojan Name > ")
 	user_photo = input("Select Photo Name > ")
-	subprocess.call(["steghide","embed",user_photo,"-ef",user_trojan])
+	subprocess.call(["steghide","embed","-cf",user_photo,"-ef",user_trojan])
 
 elif user_input == "2":
 	user_photo = input("Select Photo Name > ")
