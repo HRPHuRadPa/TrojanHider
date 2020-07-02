@@ -10,7 +10,7 @@ if os.name != "posix":
 print("	 ")
 print("   		 ◁▷◁▷   Created By hrp_huradpa_  ◁▷◁▷")
 print("	  [1] Hide ")
-print("	  [2] Close in ")
+print("	  [2] Remove Trojan ")
 print("	  [3] Exit ")
 
 user_input = input("	Select Number > ")
