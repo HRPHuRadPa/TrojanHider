@@ -9,7 +9,7 @@ if os.name != "posix":
 
 print("	 ")
 print("   		 ◁▷◁▷   Created By hrp_huradpa_  ◁▷◁▷")
-print("	  [1] Hide ")
+print("	  [1] Hide Trojan")
 print("	  [2] Remove Trojan ")
 print("	  [3] Exit ")
 
