@@ -28,9 +28,5 @@ elif user_input == "2":
 	user_photo = input("Select Photo Name > ")
 	subprocess.call(["steghide","extract","-sf",user_photo]) 
 
-elif user_input == "3":
-	print(" program is shutting")
-	sys.exit()
-
 else:
 	print("Select 1, 2 or 3 and try again ")
